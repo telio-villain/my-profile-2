@@ -1,0 +1,116 @@
+body{
+
+                background-color: beige;
+
+                color: white;
+
+                font-family: 'Lora', serif;
+
+                font-size:  18px;
+
+}
+
+h1,h2, h3{
+
+ 
+
+                font-family: "Lora", sans-serif;
+}
+
+h1{
+
+                color: white;
+
+                font-size: 34px;
+
+                font-weight: 700;
+}
+
+ 
+
+h2 {
+
+                color: white;
+
+                font-size: 28px;
+
+                font-weight: 700;
+}
+
+ 
+
+a{
+
+                font-family: "Lora", sans-serif;
+
+                color: rgb(100, 100, 100);
+
+                font-weight: 400;
+
+                font-size: 16px;
+}
+
+a:hover{
+
+ 
+
+                color: rgb(150,150, 150);
+}
+
+ 
+
+ 
+
+.container {
+
+                width: 700px;
+
+                margin: 20px auto;
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 500px;
+    }
+}
+ 
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+ 
+
+.card-white {
+
+                background-color: maroon;
+
+                padding: 30px;
+
+                box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+
+                border-radius: 50px;
+
+                margin: 23px;
+
+                text-align: center;
+}
+
+ 
+
+.img-circle {
+
+ 
+
+                border-radius: 50%;
+}
+.btn-blue {
+
+                background-color: beige;
+
+                color: black;
+
+                padding: 15px 30px;
+
+                border-radius: 10px;
+}
